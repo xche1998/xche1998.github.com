@@ -1,0 +1,177 @@
+.mySketch {
+  margin: auto;  
+  background: url(images/headerimg.jpg);
+}
+  
+header h1{
+  font-size: 54px;
+  font-weight: 700;
+  text-align: left;
+  }
+  
+header h2{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+}
+
+h2,ul,li{
+
+  padding:0;
+
+}
+
+
+ul{
+
+  list-style-type: none;
+
+  margin: auto;
+
+  color: black
+  
+
+}
+
+ul li{
+  margin-top: 20px;
+
+  min-height: 46px;
+
+  margin-bottom: 10px;
+
+  border: 2px dashed  rgb(145, 119, 18);
+
+  border-radius: 5px / 5px;
+
+  
+}
+
+ul li a:visited {
+
+	color:#7c756b;
+	
+
+}
+
+ul li a:hover {
+
+	background-color: rgb(243, 198, 19);
+	
+}
+
+
+
+
+section div{	
+
+border: #FFDE7B dotted 2px;
+
+background: rgb(226, 162, 22, 50);
+
+padding: 1em;
+
+margin: 1em;	
+
+}
+
+
+body{
+
+  font-family: 'Lato', sans-serif;
+
+}
+
+ul li a {
+  
+  text-decoration: none;
+
+  display: block;
+
+  color: #564E4B;
+
+  padding: 15px;
+
+}
+
+footer{
+
+  font-family: 'Noto Serif', serif;
+
+  color:white;
+
+  line-height: 1em;
+
+  font-size: 18px;
+
+  background-color: #db7258;
+
+  text-align: center;
+}
+
+footer a{
+
+  font-family: 'Noto Serif', serif;
+
+  color:white;
+  
+  text-decoration: none;
+
+}
+
+/*** Media Query ****/
+
+@media only screen and (min-width: 600px) {
+
+
+footer {
+
+margin:auto;
+
+flex-direction: row;
+
+padding:10px;
+
+width: 74%;
+
+}
+
+section{
+
+display: flex;
+
+flex-direction: row;
+
+padding: 30px;
+
+margin:auto;
+
+width: 74%;
+
+}
+section div{
+
+flex:1;
+
+}
+
+header {
+
+width: 1020px;
+
+height: 300px;
+
+}
+
+h1{
+  font-size: 90px;
+
+  text-align: right;
+}
+
+nav ul {
+display: flex;
+}
+}
+  
+
